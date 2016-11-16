@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng nhập</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<header>
+		<div class="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 logo">
+						<img src="images/logo.jpg">
+					</div>
+					<div class="col-md-10">
+						<div class="banner">
+							<embed width="100%" height="100%" class="img-responsive" src="images/ads/bn2.swf">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- end banner -->
+		<div class="header-link">
+			<div class="container">
+				<div class="row">
+					<div class="pull-left">
+						<form>
+							<ul class="main-search">							
+								<li>
+									<input placeholder="Nhập từ khóa cần tìm kiếm..." type="text" class="form-control" name="keyword">
+								</li>
+								<li>
+									<select class="form-control"	>
+										<option value="">Nhà bán</option>
+										<option value="">Nhà cho thuê</option>
+										<option value="">Cần mua nhà</option>
+										<option value="">Cần thuê nhà</option>
+									</select>
+								</li>
+								<li>
+									<button type="button" class="btn btn-primary">Tìm kiếm</button>		
+								</li>					
+							</ul>
+						</form>
+					</div>
+					<div class="pull-right">
+						<ul class="top-link">
+							<li><a href=""><img src="images/icons/google_search.jpg"></a></li>
+							<li><a href=""><img src="images/icons/facebook.jpg"></a></li>
+							<li><a href=""><img src="images/icons/google_plus.jpg"></a></li>
+							<li><a href=""><img src="images/icons/raonha.jpg"></a></li>
+							<li><a href=""><img src="images/icons/dangki.jpg"></a></li>
+							<li><a href=""><img src="images/icons/dangnhap.jpg"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="main-nav">		
+				<ul class="nav nav-pills">
+				   <li class="active">
+				   		<a href="#">Trang chủ</a>
+				   </li>
+				   <li class="dropdown">
+				      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nhà bán</span></a>
+				      <ul class="dropdown-menu">
+				         <li><a href="#">Bán nhà riêng</a></li>
+				         <li><a href="#">Bán biệt thự</a></li>
+				         <li><a href="#">Bán nhà mặt phố</a></li>
+				         <li><a href="#">Bán căn hộ chung cư</a></li>
+				      </ul>
+				   </li>
+				   <li class="dropdown">
+				      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nhà cho thuê</span></a>
+				      <ul class="dropdown-menu">
+				         <li><a href="#">Cho thuê nhà riêng</a></li>
+				         <li><a href="#">Cho thuê biệt thự</a></li>
+				         <li><a href="#">Cho thuê nhà mặt phố</a></li>
+				         <li><a href="#">Cho thuê căn hộ chung cư</a></li>
+				      </ul>
+				   </li>
+				   <li class="dropdown">
+				      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cần thuê nhà</span></a>
+				      <ul class="dropdown-menu">
+				         <li><a href="#">Cần thuê nhà riêng</a></li>
+				         <li><a href="#">Cần thuê biệt thự</a></li>
+				         <li><a href="#">Cần thuê nhà mặt phố</a></li>
+				         <li><a href="#">Cần thuê căn hộ chung cư</a></li>
+				      </ul>
+				   </li>
+				   <li class="dropdown">
+				      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cần mua nhà</span></a>
+				      <ul class="dropdown-menu">
+				         <li><a href="#">Cần mua nhà riêng</a></li>
+				         <li><a href="#">Cần mua biệt thự</a></li>
+				         <li><a href="#">Cần mua nhà mặt phố</a></li>
+				         <li><a href="#">Cần mua căn hộ chung cư</a></li>
+				      </ul>
+				   </li>
+				   <li>
+				   		<a href="#">Dự án</a>
+				   </li>
+				   <li>
+				   		<a href="#">Tin tức</a>
+				   </li>
+				</ul>			
+			</div><!-- end #container -->
+		</div>
+	</header><!--end header -->
+	<section>
+		<div class="container">
+		    <div class="row">
+		        <div id="form_wrapper" class="form_wrapper">
+					<form class="login active">
+						<h3>Đăng nhập</h3>
+						<div>
+							<label>Username:</label>
+							<input type="text" />
+						</div>
+						<div>
+							<label>Password: 
+								<a href="forgot_password.html" rel="forgot_password" class="forgot linkform">
+									Quên mật khẩu?
+								</a>
+							</label>
+							<input type="password" />
+						</div>
+						<div class="bottom">
+							<div class="remember"><input type="checkbox" />
+								<span>Duy trì đăng nhập</span>
+							</div>
+							<input type="submit" value="Đăng nhập"></input>
+							<a href="register.html" rel="register" class="linkform">
+								Bạn chưa có tài khoản? Đăng kí tại đây
+							</a>
+							<div class="clear"></div>
+						</div>
+					</form>
+		        </div>
+		    </div>
+		</div>	
+	</section><!--end section-->
+	<section>
+		<div class="container">
+			<div class="footer">
+				<p class="text-center">
+					Copyright © 2016 Nhadat.vn. ® Ghi rõ nguồn "Nhadat.vn" khi phát hành lại thông tin từ website này.<br/>
+					Giấy chứng nhận ĐKKD số 0106699324 do Sở Kế hoạch & Đầu tư TP.Hà Nội cấp
+					Địa chỉ: Số 185, phố Bế Văn Đàn, Quận Hà Đông, Hà Nội<br/>
+					Copyright © 2016 Nhadat.vn. ® Ghi rõ nguồn "Nhadat.vn" khi phát hành lại thông tin từ website này.<br/>
+					Giấy chứng nhận ĐKKD số 0106699324 do Sở Kế hoạch & Đầu tư TP.Hà Nội cấp
+					Địa chỉ: Số 185, phố Bế Văn Đàn, Quận Hà Đông, Hà Nội<br/>
+				</p>
+			</div>
+		</div>
+	</section><!--end section-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
